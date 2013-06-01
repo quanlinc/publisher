@@ -1,9 +1,9 @@
 {
-    "name": "teston-name",
+    "name": "test",
     "version": "0.0.1",
     "private": true,
     "scripts": {
-        "start": "node_hellow_03"
+        "start": "node app"
     },
     "dependencies": {
     }
