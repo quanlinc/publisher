@@ -1,7 +1,29 @@
 {
-    "name": "test",
+    "name": "publisher",
     "version": "0.0.1",
+    "description": "instant information publish application",
+    "author":{
+      "name": "quanlinc, jeff",
+      "email": "",
+      "url": http://publisher-appserver.rhcloud.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/quanlinc/publisher.git"
+    },
+    "engines": {
+      "node": ">= 0.6.0",
+      "npm": ">= 1.0.0"
+    },
+
     "dependencies": {
         "nodefly": "stable"
-    }
+    },
+
+    "private": true,
+    "scripts": {
+      "start": "node server.js"
+    },
+
+    "main": "server.js"
 }

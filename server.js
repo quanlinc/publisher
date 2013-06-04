@@ -9,4 +9,13 @@ require('nodefly').profile(
     host_url,
     gear_id], // to identify multiple gears or processes (for scaled apps)
   options // optional
-);rl = https://github.com/quanlinc/portaScrumPlugin.git
+);
+
+
+var http=require('http');
+http.createServer(function(req,res){
+    res.writeHead(200,{'Content-Type': 'text/plain'});
+    res.write("test");
+    res.end();
+}).listen(8090);
+console.log('Server running at http://127.0.0.1:8090/');
