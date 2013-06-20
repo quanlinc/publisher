@@ -1,0 +1,42 @@
+﻿1.变量名字用camel case，就是createUser，这样的，不要用下划线
+
+2.全局变量全大写，用下划线分开，这个是第一个用下划线的地方
+
+3.函数名字也是camel case
+
+4.数据库，nosql 就是一个key=>value对应，所以key就是相当于表名字，比如account, user_name
+
+5.括号： 
+function(){
+}
+
+function(a,
+         b,
+         c,
+         d){
+}
+
+
+6.函数与变量申明
+var 变量
+
+function funcName(){
+
+}
+
+
+return {
+  funcName:funcNameP
+
+}
+
+
+7.只有一个全局对象 Publisher
+
+8.注释
+
+/**
+*
+*/
+这样来写
+底下小的注释用单行注释//
